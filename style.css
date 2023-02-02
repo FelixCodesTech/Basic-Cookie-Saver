@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#bodyFiller{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(150deg, white, gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv{
+    width: clamp(250px, 400px, 750px);
+    background-color: rgba(255, 255, 255, 0.769);
+    border-radius: 50px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#mainDiv *{
+    margin-top: 0.5vh;
+}
+
+input{
+    color: black;
+    background-color: rgb(209, 209, 209);
+    border: 0.1rem solid black;
+    border-radius: 50px;
+}
+
+input:focus{
+    color: white;
+    background-color: rgb(101, 101, 101);
+    border-color: white;
+}
+
+button{
+    color: black;
+    background-color: rgb(168, 168, 168);
+    border: 0.1rem solid black;
+    border-radius: 50px;
+    
+    transition: all 0.3s;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(101, 101, 101);
+    border-color: white;
+}
+
+#seeCookiesButton{
+    margin-top: 15px;
+    padding: 0.25rem;
+}
